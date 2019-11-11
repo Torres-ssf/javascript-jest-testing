@@ -14,7 +14,5 @@ describe("calculator function evaluation", () => {
     test("divide a series of numbers", () => {
         expect(calculator.divide(50, 2, 5 )).toBe(5)
     });
-
-
 });
 
