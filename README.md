@@ -19,6 +19,11 @@ The purpose of this project is to write test for the following functions:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Built With
+* javascript
+* Jest
+* Babel
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -43,9 +48,3 @@ Type and run jest on your console.
 
 * **Isaac Browne** - *Initial work* - [Ispirett](https://github.com/isprett)
 * **Sergio** - *Initial work* - [Sergio](https://github.com/sergio)
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
