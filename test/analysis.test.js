@@ -1,4 +1,4 @@
-import analyse from '../lib/analysis'
+import analyse from '../lib/analysis';
 
 describe("Analyse an array and returns an object with information about it", () => {
     test("return the smaller element from the array", () => {
