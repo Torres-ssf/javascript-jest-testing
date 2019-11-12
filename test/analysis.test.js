@@ -25,4 +25,4 @@ describe('Analyse an array and returns an object with information about it', () 
   test('return the length element from the array', () => {
     expect(analyse([5, 6, 7, 8, 9, 10]).length).toBe(6);
   });
-})
+});

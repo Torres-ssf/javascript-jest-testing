@@ -1,4 +1,4 @@
-import calculator from "../lib/calculator";
+import calculator from '../lib/calculator';
 
 describe('calculator function evaluation', () => {
   test('add a series of numbers', () => {

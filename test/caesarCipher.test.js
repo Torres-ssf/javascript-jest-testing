@@ -1,11 +1,10 @@
-import cipher from "../lib/caesarCipher";
+import cipher from '../lib/caesarCipher';
 
 const simpleString = ['abcde', 'cdefg'];
 const mixedString = ['Isaac', 'Jtbbd'];
 const stringSymbols = ['hi.', 'ij.', 'jump@i.com', 'ozru@n.htr'];
 
 describe('test caesar cipher functionality', () => {
-
   test('simple string', () => {
     expect(cipher.encrypt(simpleString[0], 2)).toBe(simpleString[1]);
     expect(cipher.decrypt(simpleString[1], 2)).toBe(simpleString[0]);
@@ -22,5 +21,4 @@ describe('test caesar cipher functionality', () => {
     expect(cipher.encrypt(stringSymbols[2], 5)).toBe(stringSymbols[3]);
     expect(cipher.decrypt(stringSymbols[3], 5)).toBe(stringSymbols[2]);
   });
-
 });
